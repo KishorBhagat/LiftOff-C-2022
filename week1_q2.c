@@ -9,8 +9,12 @@ int main(){
     if(n1>n2){
         printf("The maximum number between %d and %d is %d\n", n1, n2, n1);
     }
-    else{
+    else
+    if(n2>n1){
         printf("The maximum number between %d and %d is %d\n", n1, n2, n2);
+    }
+    else{
+        printf("The numbers %d and %d are equal.\n", n1, n2);
     }
     return 0;
 }
